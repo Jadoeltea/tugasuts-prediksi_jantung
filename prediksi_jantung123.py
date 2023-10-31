@@ -10,14 +10,14 @@ st.title('PREDIKSI PENYAKIT JANTUNG')
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    age = st.text_input('Umur')
-    trestbps = st.text_input('Tekanan Darah')
+    age = st.slider('Umur', min_value=0, max_value=100, step=1)
+    trestbps = st.slider('Tekanan Darah', min_value=94, max_value=200)
     restecg = st.selectbox('Hasil ECG', ('0', '1', '2'))
-    oldpeak = st.text_input('Penurunan segmen ST pada EKG')
+    oldpeak = st.slider('Penurunan segmen ST pada EKG',min_value=0.0, max_value=6.2)
 with col2:
     sex = st.selectbox('Jenis Kelamin', ('0', '1'))
-    chol = st.text_input('Nilai Kolesterol')
-    thalach = st.text_input('Detak Jantung Maksimal')
+    chol = st.slider('Nilai Kolesterol', min_value=126, max_value=564)
+    thalach = st.slider('Detak Jantung Maksimal', min_value=71, max_value=202)
     slope = st.selectbox('Tingkat Penurunan ST Segment', ('0', '1', '2'))
     thal = st.selectbox('Aliran Darah ke Otot Jantung', ('0', '1', '2'))
 with col3:
@@ -49,3 +49,4 @@ if st.button('Prediksi Penyakit Jantung'):
             heart_diagnosis = 'Pasien Tidak Terkena Penyakit Jantung'
 
 st.success(heart_diagnosis)
+
