@@ -62,7 +62,7 @@ Adapun tipe data dalam dataset [Heart Disease Cleveland](https://www.kaggle.com/
  13| target   | 303 non-null    | int64  |
 dtypes: float64(1), int64(13)
 
-**Rubrik/Kriteria Tambahan**:
+**Visualisasi Data**:
 - Dalam Melakukan pemahaman terhadap dataset [Heart Disease Cleveland](https://www.kaggle.com/datasets/ritwikb3/heart-disease-cleveland), saya membuat empat grafik [Histogram](https://drive.google.com/file/d/1lmHKm_LYWlYxfqwbLz03c3m4cxt65v1B/view?usp=sharing) yang berbeda dimana, pada grafik [Histogram](https://drive.google.com/file/d/1lmHKm_LYWlYxfqwbLz03c3m4cxt65v1B/view?usp=sharing) yang pertama menunjukkan jumlah penderita penyakit jantung didalam dataset [Heart Disease Cleveland](https://www.kaggle.com/datasets/ritwikb3/heart-disease-cleveland), yang kedua jumlah penderita berdasarkan jenis kelamin, berdasarkan golongan Usia, dan terakhir berdasarkan jumlah penderita jantung berdasarkan jumlah kolesterol pasien.
 - Lalu saya membuat [scatter plot](https://drive.google.com/file/d/1wXx6T6lOrC2ocTTLwQhlitWNPNy3vIV7/view?usp=sharing) untuk membandingkan jumlah penderita jantung berdasarkan usia vs data detak jantung maksimal pasien
 - Dan terakhir dalam preprocesing data saya membuat matriks korelasi dan menampilkannya dalam bentuk [heatmap](https://drive.google.com/file/d/16ZjLnqzlWMvDJC9qQrzh-E0YhKRbFby4/view?usp=sharing). karena Matriks korelasi memberikan informasi tentang hubungan antara berbagai atribut numerik dalam dataset [Heart Disease Cleveland](https://www.kaggle.com/datasets/ritwikb3/heart-disease-cleveland)
