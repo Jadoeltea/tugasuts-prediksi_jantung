@@ -70,6 +70,8 @@ dtypes: float64(1), int64(13)
 
 ## Data Preparation
 Teknik data preparation yang dilakukan adalah :
+- Konfigurasi API Kaggle dengan vscode
+- mendownload file dari Kaggle
 - Menentukan library yang akan digunakan
 - Membaca dataset [Heart Disease Cleveland](https://www.kaggle.com/datasets/ritwikb3/heart-disease-cleveland) yang telah didownload, yaitu file Heart_disease_cleveland_new.csv kemudian saya rename menjadi heart.csv agar memudahkan 
 - Cek missing value didalam data heart_dataset
