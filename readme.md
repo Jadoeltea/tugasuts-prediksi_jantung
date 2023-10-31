@@ -163,7 +163,7 @@ Dari hasil Laporan klasifikasi ini sesuai dengan konteks data yang memberikan ga
 
 ## Deployment
 Berikut hasil dari akhir proyek https://s.id/TugasMLIrfanZulkarnaen
-ada pun [screenshoot](https://drive.google.com/file/d/1g3GOtTDtl-XF8sWOpSQisTik0zxwbZxF/view?usp=sharing) nya.
+ada pun [screenshoot](https://drive.google.com/file/d/17oeDQ0akI0VExSBDqQjWl9WDLlMrLJQR/view?usp=sharing) nya.
 
 
 
